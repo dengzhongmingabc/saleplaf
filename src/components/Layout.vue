@@ -12,6 +12,8 @@
             <li class="nav-pile">|</li>
             <li >注册</li>
             <li class="nav-pile">|</li>
+            <li ><router-link :to="{ path: '/orders' }">我的购物车</router-link></li>
+            <li class="nav-pile">|</li>
             <li >关于</li>
           </ul>
         </div>
@@ -88,8 +90,12 @@ export default {
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  html{
+    min-height: 745px;
+  }
   body {
     line-height: 1;
+    min-height: 745px;
   }
   ol, ul {
     list-style: none;
@@ -159,6 +165,7 @@ export default {
   .container {
     width: 1200px;
     margin: 0 auto;
+    min-height: 745px;
   }
   .hr {
     height: 1px;

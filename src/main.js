@@ -11,6 +11,7 @@ import Any from './pages/details/Any.vue'
 import Cou from './pages/details/Cou.vue'
 import For from './pages/details/For.vue'
 import Pub from './pages/details/Pub.vue'
+import Orders from './pages/Orders.vue'
 
 Vue.config.productionTip = false
 
@@ -23,6 +24,10 @@ const router = new VueRouter({
     {
       path: '/',
       component: IndexPage
+    },
+    {
+      path: '/orders',
+      component: Orders
     },
     {
       redirect:('/detail/any'),

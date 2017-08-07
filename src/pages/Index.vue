@@ -247,7 +247,7 @@ export default {
     margin-top: 20px;
   }
   .lastest-news {
-    min-height: 512px;
+    min-height: 505px;
   }
   .hot-tag {
     background: red;

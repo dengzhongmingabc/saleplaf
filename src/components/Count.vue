@@ -35,6 +35,8 @@
 <style scoped>
   .component div{
     display:inline-block;
+    display: table-cell;
+    vertical-align: middle;
   }
   .adddiv{
     width:30px;
